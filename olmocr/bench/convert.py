@@ -232,6 +232,7 @@ if __name__ == "__main__":
         "rolmocr": ("olmocr.bench.runners.run_rolmocr", "run_rolmocr"),
         "transformers": ("olmocr.bench.runners.run_transformers", "run_transformers"),
         "server": ("olmocr.bench.runners.run_server", "run_server"),
+        "moondream": ("olmocr.bench.runners.run_moondream", "run_moondream"),
     }
 
     # Build config by importing only requested methods.
